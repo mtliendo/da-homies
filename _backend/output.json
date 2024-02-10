@@ -1,0 +1,15 @@
+{
+  "DaHomiesBackendStack": {
+    "awsAppsyncApiEndpoint": "https://h36kkhbegnbpnotgdhla4u4o64.appsync-api.us-east-1.amazonaws.com/graphql",
+    "UserPoolClientId": "16ea6fcf5bqnsdve1dovooilig",
+    "awsAppsyncApiId": "zqwelcm5rfgnhgfzopjxop5ifi",
+    "awsAppsyncAuthenticationType": "AMAZON_COGNITO_USER_POOLS",
+    "UserPoolId": "us-east-1_UHt92VI9I",
+    "amplifyApiModelSchemaS3Uri": "s3://dahomiesbackendstack-homieamplifycodegenassetsampl-d5g40k1juilc/model-schema.graphql",
+    "awsAppsyncAdditionalAuthenticationTypes": "AWS_IAM",
+    "IdentityPoolId": "us-east-1:f03a8d58-4bd7-4db9-b7f9-6dbae6bbde18",
+    "awsAppsyncRegion": "us-east-1",
+    "AppSyncAPIEndpoint": "https://h36kkhbegnbpnotgdhla4u4o64.appsync-api.us-east-1.amazonaws.com/graphql",
+    "AppRegion": "us-east-1"
+  }
+}

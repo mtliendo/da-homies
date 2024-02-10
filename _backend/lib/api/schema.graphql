@@ -1,0 +1,17 @@
+type Recipe
+	@model
+	@auth(
+		rules: [
+			{ allow: public, provider: iam, operations: [read] }
+			{ allow: owner }
+		]
+	) {
+	id: ID
+	owner: String
+	coverImage: String
+	title: String @index(name: "byTitle", queryField: "RecipeByTitle")
+	description: String
+	servings: Int
+	ingredientsText: String
+	stepsText: String
+}
