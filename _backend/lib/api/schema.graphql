@@ -1,12 +1,8 @@
 type Recipe
 	@model
-	@auth(
-		rules: [
-			{ allow: public, provider: iam, operations: [read] }
-			{ allow: owner }
-		]
-	) {
+	@auth(rules: [{ allow: public, provider: iam, operations: [read] }]) {
 	id: ID
+
 	owner: String
 	coverImage: String
 	title: String @index(name: "byTitle", queryField: "RecipeByTitle")

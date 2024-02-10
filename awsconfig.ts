@@ -8,6 +8,7 @@ export const config = {
 			userPoolId: process.env.userPoolId || output.UserPoolId,
 			userPoolClientId: process.env.userPoolClientId || output.UserPoolClientId,
 			identityPoolId: process.env.identityPoolId || output.IdentityPoolId,
+			allowGuestAccess: true,
 		},
 	},
 	API: {
